@@ -1,40 +1,347 @@
-## Hey, Geek 😎
-<p align="center"><a href="https://github.com/rooted-cyber"><img src="https://telegra.ph/file/7657a8071b39eb1163015.jpg" alt="Bt">
-  
-## <p align="center"> Know More About Us
-  
 
-</p>
-  
-<p align="center"><a href="https://github.com/rooted-cyber"><img title="Bhavik tutorials" src="https://github-readme-stats.vercel.app/api?username=rooted-cyber&show_icons=true&include_all_commits=true&theme=chartreuse-dark&cache_seconds=3200"></a>
-</p>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+    <title>Bhadoo Drive Index - Beta</title>
+    <link rel="icon" type="image/x-icon" href="https://www.cloudflare.com/favicon.ico"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.0.0/dist/slate/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 
-<p align="center">
-<a href="https://github.com/rooted-cyber"><img title="YouTube" src="https://img.shields.io/badge/rooted-cyber-brightgreen?style=for-the-badge&logo=github"></a>
-<a href="https://youtube.com/channel/UCnidXfn-YGO3Fug-8IL5uNw"><img title="YouTube" src="https://img.shields.io/badge/YouTube-rooted cyber-red?style=for-the-badge&logo=Youtube"></a>
-</p>
+    <style>
+        /*snippet.css*/
+        .snippet {
+            position: relative;
+            overflow: visible;
+        }
 
-<p align="center">
-<a href="https://t.me/rootedcyber1"><img title="Telegram" src="https://img.shields.io/badge/Telegram-black?style=for-the-badge&logo=Telegram"></a>
-<a href="https://t.me/rootedcyber_bot"><img title="Telegram" src="https://img.shields.io/badge/Telegram-black?style=for-the-badge&logo=Telegram_bot"></a>
-<a href="https://chat.whatsapp.com/JH8SqlhcIeX0IeC1t2RWmu"><img title="whatsapp" src="https://img.shields.io/badge/whatsapp-blue?style=for-the-badge&logo=whatsapp"></a>
-<a href="https://instagram.com/rootedcyber"><img title="Instagram" src="https://img.shields.io/badge/INSTAGRAM-purple?style=for-the-badge&logo=instagram"></a>
-<a href="https://facebook.com/rootedcyber"><<img title="Facebook" src="https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white"></a>
+        .snippet code {
+            font-size: 14px;
+            line-height: 20px;
+        }
 
-<p align="center">
-<a href="https://github.com/rooted-cyber/Metasploit-Installation"><img title="Metasploit-Installation" src="https://github-readme-stats.vercel.app/api/pin/?username=rooted-cyber&repo=Metasploit-Installation&theme=radical"></a>
-<a href="https://github.com/rooted-cyber/I-Location"><img title="I-Location" src="https://github-readme-stats.vercel.app/api/pin/?username=rooted-cyber&repo=I-Location&theme=highcontrast"></a>
-<a href="https://github.com/rooted-cyber/Termux-Test"><img title="Termux-Test" src="https://github-readme-stats.vercel.app/api/pin/?username=rooted-cyber&repo=Termux-Test&theme=vision-friendly-dark"></a>
-<a href="https://github.com/rooted-cyber/Termux-New-Look"><img title="Termux-New-Look" src="https://github-readme-stats.vercel.app/api/pin/?username=rooted-cyber&repo=Termux-New-Look&theme=highcontrast"></a>
+        .snippet .btn {
+            -webkit-transition: opacity 0.3s ease-in-out;
+            -o-transition: opacity 0.3s ease-in-out;
+            transition: opacity 0.3s ease-in-out;
+            opacity: 0;
+            padding: 2px 6px;
+            position: absolute;
+            right: 4px;
+            top: 4px;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 20px;
+            color: #fff;
+            white-space: nowrap;
+            vertical-align: middle;
+            cursor: pointer;
+            background-color: #eee;
+            background-image: linear-gradient(#fcfcfc,#eee);
+            border: 1px solid #d5d5d5;
+            border-radius: 3px;
+        }
 
+        .snippet:hover .btn,
+        .snippet .btn:focus {
+            opacity: 1;
+        }
 
-<a href="https://github.com/rooted-cyber/Ti-Script"><img title="Ti-Script" src="https://github-readme-stats.vercel.app/api/pin/?username=rooted-cyber&repo=Ti-Script&theme=highcontrast"></a>
-<a href="https://github.com/rooted-cyber/Create_Read-More"><img title="Create_Read-More" src="https://github-readme-stats.vercel.app/api/pin/?username=rooted-cyber&repo=Create_Read-More&theme=vision-friendly-dark"></a>
-<a href="https://github.com/rooted-cyber/Random-Theme"><img title="Random-Theme" src="https://github-readme-stats.vercel.app/api/pin/?username=rooted-cyber&repo=Random-Theme&theme=highcontrast"></a>
-</p>
-</p>
+        @media screen and (max-width: 768px) {
+            .snippet .btn {
+                opacity: 1;
+            }
+        }
 
-<p align="center">
-<a href="https://github.com/rooted-cyber"><img title="rooted-cyber" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rooted-cyber&layout=compact"></a>
-</p>
-<p align="center"> Copyright of Noob Hackers
+        code {
+            background-color: #000;
+            border-radius: 3px;
+            color: #fff;
+            font-size: 85%;
+            margin: 0;
+            padding: 0.2em;
+        }
+
+        .hljs-keyword {
+            color: #008080;
+            font-weight: normal;
+        }
+
+        /*primer.css*/
+        .tooltipped {
+            position: relative
+        }
+
+        .tooltipped:after {
+            position: absolute;
+            z-index: 1000000;
+            display: none;
+            padding: 5px 8px;
+            font: normal normal 11px/1.5 Helvetica,arial,nimbussansl,liberationsans,freesans,clean,sans-serif,"Segoe UI Emoji","Segoe UI Symbol";
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            text-shadow: none;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: break-word;
+            white-space: pre;
+            pointer-events: none;
+            content: attr(aria-label);
+            background: rgba(0,0,0,0.8);
+            border-radius: 3px;
+            -webkit-font-smoothing: subpixel-antialiased
+        }
+
+        .tooltipped:before {
+            position: absolute;
+            z-index: 1000001;
+            display: none;
+            width: 0;
+            height: 0;
+            color: rgba(0,0,0,0.8);
+            pointer-events: none;
+            content: "";
+            border: 5px solid transparent
+        }
+
+        .tooltipped:hover:before,.tooltipped:hover:after,.tooltipped:active:before,.tooltipped:active:after,.tooltipped:focus:before,.tooltipped:focus:after {
+            display: inline-block;
+            text-decoration: none
+        }
+
+        .tooltipped-multiline:hover:after,.tooltipped-multiline:active:after,.tooltipped-multiline:focus:after {
+            display: table-cell
+        }
+
+        .tooltipped-s:after,.tooltipped-se:after,.tooltipped-sw:after {
+            top: 100%;
+            right: 50%;
+            margin-top: 5px
+        }
+
+        .tooltipped-s:before,.tooltipped-se:before,.tooltipped-sw:before {
+            top: auto;
+            right: 50%;
+            bottom: -5px;
+            margin-right: -5px;
+            border-bottom-color: rgba(0,0,0,0.8)
+        }
+
+        .tooltipped-se:after {
+            right: auto;
+            left: 50%;
+            margin-left: -15px
+        }
+
+        .tooltipped-sw:after {
+            margin-right: -15px
+        }
+
+        .tooltipped-n:after,.tooltipped-ne:after,.tooltipped-nw:after {
+            right: 50%;
+            bottom: 100%;
+            margin-bottom: 5px
+        }
+
+        .tooltipped-n:before,.tooltipped-ne:before,.tooltipped-nw:before {
+            top: -5px;
+            right: 50%;
+            bottom: auto;
+            margin-right: -5px;
+            border-top-color: rgba(0,0,0,0.8)
+        }
+
+        .tooltipped-ne:after {
+            right: auto;
+            left: 50%;
+            margin-left: -15px
+        }
+
+        .tooltipped-nw:after {
+            margin-right: -15px
+        }
+
+        .tooltipped-s:after,.tooltipped-n:after {
+            -webkit-transform: translateX(50%);
+            -ms-transform: translateX(50%);
+            transform: translateX(50%)
+        }
+
+        .tooltipped-w:after {
+            right: 100%;
+            bottom: 50%;
+            margin-right: 5px;
+            -webkit-transform: translateY(50%);
+            -ms-transform: translateY(50%);
+            transform: translateY(50%)
+        }
+
+        .tooltipped-w:before {
+            top: 50%;
+            bottom: 50%;
+            left: -5px;
+            margin-top: -5px;
+            border-left-color: rgba(0,0,0,0.8)
+        }
+
+        .tooltipped-e:after {
+            bottom: 50%;
+            left: 100%;
+            margin-left: 5px;
+            -webkit-transform: translateY(50%);
+            -ms-transform: translateY(50%);
+            transform: translateY(50%)
+        }
+
+        .tooltipped-e:before {
+            top: 50%;
+            right: -5px;
+            bottom: 50%;
+            margin-top: -5px;
+            border-right-color: rgba(0,0,0,0.8)
+        }
+
+        .tooltipped-multiline:after {
+            width: -moz-max-content;
+            width: max-content;
+            max-width: 250px;
+            word-break: break-word;
+            word-wrap: normal;
+            white-space: pre-line;
+            border-collapse: separate
+        }
+
+        .tooltipped-multiline.tooltipped-s:after,.tooltipped-multiline.tooltipped-n:after {
+            right: auto;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            transform: translateX(-50%)
+        }
+
+        .tooltipped-multiline.tooltipped-w:after,.tooltipped-multiline.tooltipped-e:after {
+            right: 100%
+        }
+
+        @media screen and (min-width: 0\0) {
+            .tooltipped-multiline:after {
+                width: 250px
+            }
+        }
+
+        .tooltipped-sticky:before,.tooltipped-sticky:after {
+            display: inline-block
+        }
+
+        .tooltipped-sticky.tooltipped-multiline:after {
+            display: table-cell
+        }
+    </style>
+</head>
+<body">
+<div class="container">
+    <br><br>
+    <a href="https://www.npmjs.com/package/@googledrive/index"><h3>Bhadoo Index Generator - Beta</h3></a>
+    <br>
+        <div>
+            <h3>1. <a
+               href="https://accounts.google.com/o/oauth2/auth?client_id=746239575955-oao9hkv614p8glrqpvuh5i8mqfoq145b.apps.googleusercontent.com&redirect_uri=urn:ietf:wg:oauth:2.0:oob&response_type=code&access_type=offline&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive&approval_prompt=auto"
+               target="_blank"><img src="https://developers.google.com/identity/images/btn_google_signin_dark_normal_web.png"></a></h3>
+        </div>
+        <p>The App requests permissions to access your Google Drive files so do not share this code with anyone else.</p>
+    <br>
+    <div>
+<h3>2. Enter Details</h3>
+<form>
+  <div class="mb-3">
+    <label for="authcode" class="form-label">Authentication Code</label>
+    <input type="text" class="form-control" id="authcode" name="auth_code" aria-describedby="authcodefromgoogle" required>
+    <div id="authcodefromgoogle" class="form-text">Enter Code Generated from Google. Keep it private and do not share.</div>
+  </div>
+  <div class="mb-3">
+    <label for="sitename" class="form-label">Site Name</label>
+    <input type="text" class="form-control" name="site_name" id="sitename">
+  </div>
+  <div class="mb-3">
+    <label for="driveId" class="form-label">Share Drive ID or root</label>
+    <input type="text" class="form-control" value="root" name="root" id="driveId" required>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+    </div>
+    <br><br>
+    <h3>
+        3. Copy following code and paste into <a href="https://dash.cloudflare.com" target="_blank">Cloudflare Workers</a>
+    </h3>
+    <div class="overflow-auto" style="background-color:#000;">
+        <pre class="snippet"><code class="html js"></code></pre>
+    </div>
+    <center><p>© <span id="year"></span> - Bhadoo Cloud Cyber Systems</p></center>
+</div>
+
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+    /*snippets.js*/
+    var snippets = document.querySelectorAll('.snippet');
+
+    [].forEach.call(snippets, function(snippet) {
+        snippet.firstChild.insertAdjacentHTML('beforebegin', '<button class="btn" data-clipboard-snippet><img class="clippy" width="13" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEwMjQiIHdpZHRoPSI4OTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTEyOCA3NjhoMjU2djY0SDEyOHYtNjR6IG0zMjAtMzg0SDEyOHY2NGgzMjB2LTY0eiBtMTI4IDE5MlY0NDhMMzg0IDY0MGwxOTIgMTkyVjcwNGgzMjBWNTc2SDU3NnogbS0yODgtNjRIMTI4djY0aDE2MHYtNjR6TTEyOCA3MDRoMTYwdi02NEgxMjh2NjR6IG01NzYgNjRoNjR2MTI4Yy0xIDE4LTcgMzMtMTkgNDVzLTI3IDE4LTQ1IDE5SDY0Yy0zNSAwLTY0LTI5LTY0LTY0VjE5MmMwLTM1IDI5LTY0IDY0LTY0aDE5MkMyNTYgNTcgMzEzIDAgMzg0IDBzMTI4IDU3IDEyOCAxMjhoMTkyYzM1IDAgNjQgMjkgNjQgNjR2MzIwaC02NFYzMjBINjR2NTc2aDY0MFY3Njh6TTEyOCAyNTZoNTEyYzAtMzUtMjktNjQtNjQtNjRoLTY0Yy0zNSAwLTY0LTI5LTY0LTY0cy0yOS02NC02NC02NC02NCAyOS02NCA2NC0yOSA2NC02NCA2NGgtNjRjLTM1IDAtNjQgMjktNjQgNjR6IiAvPgo8L3N2Zz4K" alt="Copy to clipboard"></button>');
+    });
+
+    var clipboardSnippets = new ClipboardJS('[data-clipboard-snippet]', {
+        target: function(trigger) {
+            return trigger.nextElementSibling;
+        }
+    });
+
+    clipboardSnippets.on('success', function(e) {
+        e.clearSelection();
+
+        showTooltip(e.trigger, 'Copied!');
+    });
+
+    clipboardSnippets.on('error', function(e) {
+        showTooltip(e.trigger, fallbackMessage(e.action));
+    });
+
+    /*tooltips.js*/
+    var btns = document.querySelectorAll('.btn');
+
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener('mouseleave', clearTooltip);
+        btns[i].addEventListener('blur', clearTooltip);
+    }
+
+    function clearTooltip(e) {
+        e.currentTarget.setAttribute('class', 'btn');
+        e.currentTarget.removeAttribute('aria-label');
+    }
+
+    function showTooltip(elem, msg) {
+        elem.setAttribute('class', 'btn tooltipped tooltipped-s');
+        elem.setAttribute('aria-label', msg);
+    }
+
+    // Simplistic detection, do not use it in production
+    function fallbackMessage(action) {
+        var actionMsg = '';
+        var actionKey = (action === 'cut' ? 'X' : 'C');
+
+        if(/iPhone|iPad/i.test(navigator.userAgent)) {
+            actionMsg = 'No support :(';
+        }
+        else if (/Mac/i.test(navigator.userAgent)) {
+            actionMsg = 'Press ⌘-' + actionKey + ' to ' + action;
+        }
+        else {
+            actionMsg = 'Press Ctrl-' + actionKey + ' to ' + action;
+        }
+
+        return actionMsg;
+    }
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+</html>
